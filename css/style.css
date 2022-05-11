@@ -289,6 +289,9 @@ p {
     display: flex;
     justify-content:center;
 }
+.footerFondo{
+    background-color: coral;
+}
 @media only screen and (max-width: 1023px) {
 	.header{
         background-color: azure;
@@ -299,10 +302,10 @@ p {
         padding:10%;
         min-height: 5px;
         display:grid; 
-        grid-template-columns: 33% 33% 33%; 
-        grid-template-rows: 1fr 1 fr 1fr;
+        grid-column:span 80%; 
+        grid-row: span 1fr 1 fr 1fr;
         gap: 5px;
-        grid-area: auto;
+        
         
     } 
     .p{
