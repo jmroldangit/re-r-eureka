@@ -1,0 +1,78 @@
+@import"parciales/variables";
+@import"parciales/footer";
+@import"parciales/header";
+@import"parciales/diseño";
+@import"parciales/utilidades";
+
+.colorletra__blanca{
+    color:aliceblue;
+}
+
+.animacion{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation-name: inicial;
+    animation-duration: 5s;
+}
+@keyframes inicial{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg)
+    }
+    0%{
+        transform: rotate(0deg);
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+	.header{
+        background-color: azure;
+    }
+    .gridNovedades{
+        border: none;        
+        margin:auto;
+        padding:10%;
+        min-height: 5px;
+        display:grid; 
+        grid-column:span 80%; 
+        grid-row: span 1fr 1 fr 1fr;
+        gap: 5px;
+        
+        
+    } 
+    .p{
+        font-size:small;
+        margin:auto
+    }
+    .colorletra__blanca{
+        font-size: small;
+        margin: auto;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+	.gridNovedades{
+        border: none;        
+        margin:auto;
+        padding:10%;
+        min-height: 5px;
+        display:grid; 
+        grid-template-columns: 33%; 
+        grid-template-rows: 1fr 1 fr 1fr;           
+       
+    }
+    .p{
+        font-size: small;     
+    
+ 
+    }
+    .colorletra__blanca{
+        font-size: small;
+        margin: auto;
+    }
+    
+    
+}

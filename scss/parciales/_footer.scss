@@ -1,0 +1,20 @@
+.gridFooter {
+    border: 15px solid;
+    padding: 1rem;
+    min-height: 100px;
+    display: grid;    
+    grid-template-columns: 20px 20px;color: black;   
+}
+.flexFooter{
+    border: 10px solid;
+    padding: 1rem;
+    min-height: 20px;
+    display: flex;
+    justify-content:space-between;
+    -ms-flex-item-align: center;
+    bottom: 100px;
+    
+}
+.footerFondo{
+    background-color: coral;
+}
