@@ -29,7 +29,7 @@ form {border-color: black;
 
 body {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,94,1) 35%, rgba(0,212,255,1) 100%);
+    background: radial-gradient(circle, rgb(157, 125, 161) 0%, rgba(135,88,124,1) 35%, rgb(233, 113, 187) 100%);
     padding: 50px; 
     border-bottom: 20px; 
     border-top: 20px;
@@ -300,14 +300,9 @@ p {
 }
 @keyframes inicial{
     0%{
-        transform: rotate(0deg);
+        transform: scale(1.5);
     }
-    50%{
-        transform: rotate(180deg)
-    }
-    0%{
-        transform: rotate(0deg);
-    }
+    
 }
 
 @media only screen and (max-width: 1023px) {

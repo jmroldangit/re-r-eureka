@@ -42,7 +42,7 @@ h1 p {
 
 body {
   background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #79095e 35%, #00d4ff 100%);
+  background: radial-gradient(circle, #9d7da1 0%, #87587c 35%, #e971bb 100%);
   padding: 50px;
   border-bottom: 20px;
   border-top: 20px;
@@ -199,7 +199,7 @@ table {
 
 @keyframes inicial {
   0% {
-    transform: rotate(0deg);
+    transform: scale(1.5);
   }
   50% {
     transform: rotate(180deg);
