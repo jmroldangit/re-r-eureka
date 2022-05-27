@@ -1,0 +1,13 @@
+@mixin pmix($textalign, $fontsize, $color: purple){
+    text-align:$textalign;
+    font-size:$fontsize;
+    color:$color;
+}
+p{
+    @include pmix(center, 25px, black)
+}
+
+.colorletra__blanca{
+    @include pmix(center, 20px, black)
+}
+
