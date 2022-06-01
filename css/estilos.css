@@ -86,13 +86,13 @@ body {
 
 .gridNovedades {
   border: 5px solid black;
-  padding: 10px;
-  min-height: 10px;
+  padding: 5 px;
+  min-height: 5px;
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr;
   grid-template-rows: 1fr;
   grid-column-gap: 40px;
-  align-items: center;
+  align-items: flex-start;
   justify-items: center;
 }
 
@@ -162,6 +162,15 @@ body {
   background-color: none;
 }
 
+p {
+  color: #f1eded;
+  font-size: larger;
+  line-height: 200%;
+  text-align: justify;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 table {
   border-color: black 10px;
   background-color: pink;
@@ -186,7 +195,7 @@ table {
 
 .WhatsApp:hover {
   border: 2px solid black;
-  color: darksalmon;
+  color: pink;
 }
 
 .animacion {
@@ -205,7 +214,7 @@ table {
 
 p {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
 }
 
@@ -241,6 +250,10 @@ p {
     font-size: small;
     margin: auto;
   }
+  .ul__deco {
+    text-decoration: none;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -259,6 +272,10 @@ p {
   .colorletra__blanca {
     font-size: small;
     margin: auto;
+  }
+  .ul__deco {
+    text-decoration: none;
+    justify-content: center;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

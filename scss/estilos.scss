@@ -25,8 +25,7 @@
         grid-template-columns: 100%; 
         grid-template-rows: 1fr 1fr 1fr;
         gap: 5px;
-        
-        
+             
     } 
     .p{
         font-size:small;
@@ -35,6 +34,10 @@
     .colorletra__blanca{
         font-size: small;
         margin: auto;
+    }
+    .ul__deco{
+        text-decoration: none;
+        justify-content: center;
     }
     
 }
@@ -58,6 +61,9 @@
         font-size: small;
         margin: auto;
     }
-    
+    .ul__deco{
+        text-decoration: none;
+        justify-content: center;
+    }
     
 }
