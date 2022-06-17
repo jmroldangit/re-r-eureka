@@ -48,6 +48,7 @@ body {
   border-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 .colorLetra {
@@ -181,14 +182,21 @@ table {
   background-image: linear-gradient(50deg, pink, rgb);
 }
 
+.ul__deco {
+  text-decoration: none;
+  justify-content: center;
+}
+
 .WhatsApp {
   color: blanchedalmond;
   text-decoration: none;
   font-style: norm;
   background-color: #20c71a;
   padding: 10px 20px;
+  border-radius: 20em;
   display: inline-block;
   position: fixed;
+  border-radius: 50%;
   bottom: 15px;
   right: 15px;
 }
@@ -243,7 +251,7 @@ p {
     gap: 5px;
   }
   .p {
-    font-size: small;
+    font-size: medium;
     margin: auto;
   }
   .colorletra__blanca {
@@ -253,6 +261,11 @@ p {
   .ul__deco {
     text-decoration: none;
     justify-content: center;
+  }
+  body {
+    padding: none;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -267,15 +280,16 @@ p {
     grid-template-rows: 1fr 1fr 1fr;
   }
   .p {
-    font-size: small;
+    font-size: medium;
   }
   .colorletra__blanca {
-    font-size: small;
+    font-size: medium;
     margin: auto;
   }
-  .ul__deco {
-    text-decoration: none;
-    justify-content: center;
+  body {
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

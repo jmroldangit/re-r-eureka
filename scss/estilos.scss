@@ -28,7 +28,7 @@
              
     } 
     .p{
-        font-size:small;
+        font-size:medium;
         margin:auto
     }
     .colorletra__blanca{
@@ -38,6 +38,11 @@
     .ul__deco{
         text-decoration: none;
         justify-content: center;
+    }
+    body{
+        padding: none;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
 }
@@ -53,17 +58,19 @@
        
     }
     .p{
-        font-size: small;     
+        font-size: medium;     
     
  
     }
     .colorletra__blanca{
-        font-size: small;
+        font-size: medium;
         margin: auto;
     }
-    .ul__deco{
-        text-decoration: none;
-        justify-content: center;
+    body{
+        padding: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
+   
     
 }

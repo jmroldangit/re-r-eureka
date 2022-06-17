@@ -14,7 +14,9 @@
 </head>
 
 <body>
-  <a class="WhatsApp" href="https://wa.me/1141413131" target="_blank">WhatsApp</a>
+  <a class="bi bi-whatsapp WhatsApp" href="https://wa.me/1141413131"target="blank" >
+    <img  src ="../images/whatsapp.svg" alt ="WhatsApp">
+  </a>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
@@ -33,7 +35,7 @@
       
             </li>
             <li class="nav-item nav__enlace">
-              <a class="nav-link active" aria-current="page" href="legislacion.html">Legislacion</a>
+              <a class="nav-link active" aria-current="page" href="legislacion.html">Legislación</a>
       
             </li>
             <li class="nav-item nav__enlace">
@@ -46,32 +48,39 @@
     </nav>
     
   </header>
+  <img class="img-fluid imgFondo" src="../images/contacto1.webp" alt="imagen legislacion">
   <span class="imgFondo img-fluid">    
-    <h1 class="letraSecundaria">Contactese con nosotros!!!</h1>
+    <h1 class="letraSecundaria">Contáctese con nosotros!!!</h1>
     <h2 class="p">
       <p class="p">Para una mejor comunicación, complete los siguientes casilleros, pudiendo adjuntar todos los documentos que estime puedan ilustrar su caso y nos pondremos en contacto con usted a la
         mayor brevedad posible</p>
     </h2>
   </span>
+  <main>
+    <section>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Apellido y Nombre</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido y Nombre">
+        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Telefono">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@mail.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>  
+      <div class="mb-3">
+        <label for="formFileMultiple" class="form-label">Archivos, fotos o videos</label>
+        <input class="form-control" type="file" id="formFileMultiple" multiple>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
 
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Apellido y Nombre</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido y Nombre">
-    <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Telefono">
-    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@mail.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>  
-  <div class="mb-3">
-    <label for="formFileMultiple" class="form-label">Archivos, fotos o videos</label>
-    <input class="form-control" type="file" id="formFileMultiple" multiple>
-  </div>
-  <div class="col-auto">
-    <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+    </section>
+  </main>
+
+  
   
   <footer class="bg-light text-center text-white">
       <div class="container p-4 pb-0 footerFondo">      
@@ -117,7 +126,7 @@
    
     <div class="text-center p-3 colorLetra" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2022 DPM todos los derechos reservados:
-      <a class="text-black" href="politicasprivacidad.html">Politicas de privacidad,
+      <a class="text-black" href="politicasprivacidad.html">Políticas de privacidad,
         términos y condiciones</a>
     </div>    
   </footer> 
